@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1168295256 source:/home/eric/tinynsf/M6502/ConDebug.c
+	"Debug.c"
+	"M6502.h"
+	"Console.h"
+	<stdlib.h>
+	"Debug.c"
+
+1342747541 /home/eric/tinynsf/M6502/Debug.c
+	"M6502.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"NES.h"
+
+1342805220 /home/eric/tinynsf/M6502/M6502.h
+
+1342747541 source:/home/eric/tinynsf/M6502/Debug.c
+	"M6502.h"
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"NES.h"
+
+1343096252 source:/home/eric/tinynsf/M6502/M6502.c
+	"M6502.h"
+	"Tables.h"
+	<stdio.h>
+	"Codes.h"
+	"Codes.h"
+
+1168296008 /home/eric/tinynsf/M6502/Tables.h
+
+1168295998 /home/eric/tinynsf/M6502/Codes.h
+
+1343360000 source:/home/eric/tinynsf/apu.c
+	"apu.h"
+	<malloc.h>
+	<string.h>
+
+1343271574 /home/eric/tinynsf/apu.h
+	"M6502/M6502.h"
+	<stdint.h>
+
+1343360580 source:/home/eric/tinynsf/tinynsf.c
+	<stdio.h>
+	<aalib.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<pthread.h>
+	"M6502/M6502.h"
+	"apu.h"
+	"audiodrv.h"
+
+1343167677 source:/home/eric/tinynsf/audiodrv.c
+	"audiodrv.h"
+	<stdio.h>
+
+1343168507 /home/eric/tinynsf/audiodrv.h
+	<stdio.h>
+	<errno.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<alsa/asoundlib.h>
+	"AudioBase.h"
+
+1343140164 /home/eric/tinynsf/AudioBase.h
+	<string.h>
+	"AudioConfig.h"
+
+1343139832 /home/eric/tinynsf/AudioConfig.h
+	<stdint.h>
+

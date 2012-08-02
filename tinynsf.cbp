@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tinynsf" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/tinynsf" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="&apos;/home/eric/Downloads/Mega Man 2.nsf&apos;" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add library="libasound" />
+					<Add library="libaa" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/tinynsf" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters='&quot;/home/eric/Downloads/Super Mario Bros. 1.nsf&quot;' />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libasound" />
+					<Add library="libaa" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="M6502/Codes.h" />
+		<Unit filename="M6502/ConDebug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="M6502/M6502.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="M6502/M6502.h" />
+		<Unit filename="M6502/Tables.h" />
+		<Unit filename="apu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apu.h" />
+		<Unit filename="tinynsf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

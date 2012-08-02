@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="AudioBase.h" open="0" top="0" tabpos="0">
+		<Cursor position="1654" topLine="31" />
+	</File>
+	<File name="AudioConfig.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="40" />
+	</File>
+	<File name="M6502/Codes.h" open="0" top="0" tabpos="4">
+		<Cursor position="3649" topLine="95" />
+	</File>
+	<File name="M6502/ConDebug.c" open="0" top="0" tabpos="0">
+		<Cursor position="65" topLine="12" />
+	</File>
+	<File name="M6502/M6502.c" open="0" top="0" tabpos="2">
+		<Cursor position="2552" topLine="95" />
+	</File>
+	<File name="M6502/M6502.h" open="0" top="0" tabpos="3">
+		<Cursor position="2810" topLine="71" />
+	</File>
+	<File name="apu.c" open="1" top="0" tabpos="2">
+		<Cursor position="5202" topLine="66" />
+	</File>
+	<File name="apu.h" open="1" top="0" tabpos="3">
+		<Cursor position="1120" topLine="29" />
+	</File>
+	<File name="audiodrv.h" open="0" top="0" tabpos="0">
+		<Cursor position="1199" topLine="21" />
+	</File>
+	<File name="tinynsf.c" open="1" top="1" tabpos="1">
+		<Cursor position="7880" topLine="357" />
+	</File>
+</CodeBlocks_layout_file>
